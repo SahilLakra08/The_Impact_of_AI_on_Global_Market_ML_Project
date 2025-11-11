@@ -1,0 +1,70 @@
+{
+  "model_performance": {
+    "market_r2_score": 0.9126,
+    "adoption_r2_score": 0.9848
+  },
+  "historical_data": [
+    {
+      "year": 2018,
+      "market_size": 16.0,
+      "adoption_rate": 12.5
+    },
+    {
+      "year": 2019,
+      "market_size": 27.2,
+      "adoption_rate": 18.3
+    },
+    {
+      "year": 2020,
+      "market_size": 39.9,
+      "adoption_rate": 24.8
+    },
+    {
+      "year": 2021,
+      "market_size": 58.3,
+      "adoption_rate": 32.1
+    },
+    {
+      "year": 2022,
+      "market_size": 93.5,
+      "adoption_rate": 41.7
+    },
+    {
+      "year": 2023,
+      "market_size": 136.5,
+      "adoption_rate": 52.4
+    },
+    {
+      "year": 2024,
+      "market_size": 196.8,
+      "adoption_rate": 63.2
+    }
+  ],
+  "predictions": [
+    {
+      "year": 2025,
+      "predicted_market_size": 197.54,
+      "predicted_adoption_rate": 68.89
+    },
+    {
+      "year": 2026,
+      "predicted_market_size": 226.64,
+      "predicted_adoption_rate": 77.36
+    },
+    {
+      "year": 2027,
+      "predicted_market_size": 255.73,
+      "predicted_adoption_rate": 85.83
+    },
+    {
+      "year": 2028,
+      "predicted_market_size": 284.82,
+      "predicted_adoption_rate": 94.3
+    },
+    {
+      "year": 2029,
+      "predicted_market_size": 313.91,
+      "predicted_adoption_rate": 102.77
+    }
+  ]
+}

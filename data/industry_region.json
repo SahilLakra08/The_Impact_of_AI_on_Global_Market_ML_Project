@@ -1,0 +1,18 @@
+{
+  "industries": {
+    "Healthcare": 68.5,
+    "Finance": 72.3,
+    "Manufacturing": 45.8,
+    "Retail": 59.2,
+    "Technology": 89.6,
+    "Transportation": 38.7,
+    "Education": 34.1
+  },
+  "regions": {
+    "North America": 65.8,
+    "Europe": 58.4,
+    "Asia Pacific": 71.2,
+    "Latin America": 32.8,
+    "Middle East & Africa": 28.9
+  }
+}

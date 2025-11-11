@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Impact of AI on Global Market</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>The Impact of AI on Global Market</h1>
+            <p class="description">
+                Comprehensive analysis and predictions of artificial intelligence adoption and market growth across industries and regions.
+                Our machine learning models analyze historical trends to forecast future market developments.
+            </p>
+        </header>
+
+        <!-- Analysis Status -->
+        <div class="status-section">
+            <div id="statusMessage" class="status-loading">
+                <div class="spinner"></div>
+                <span>Loading analysis data...</span>
+            </div>
+            <div id="modelPerformance" class="model-performance" style="display: none;">
+                <h3>Model Performance</h3>
+                <div class="performance-metrics">
+                    <div class="metric">
+                        <span class="label">Market Size R² Score:</span>
+                        <span id="marketR2" class="value">-</span>
+                    </div>
+                    <div class="metric">
+                        <span class="label">Adoption Rate R² Score:</span>
+                        <span id="adoptionR2" class="value">-</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+            <!-- AI Market Growth Chart -->
+            <div class="chart-container">
+                <h2>AI Market Growth Over Time</h2>
+                <p class="chart-description">
+                    Historical data and machine learning predictions showing the exponential growth of the AI market.
+                </p>
+                <canvas id="marketGrowthChart"></canvas>
+            </div>
+
+            <!-- AI Adoption Rate Chart -->
+            <div class="chart-container">
+                <h2>AI Adoption Rate Trends</h2>
+                <p class="chart-description">
+                    Evolution of AI adoption rates with future projections based on linear regression analysis.
+                </p>
+                <canvas id="adoptionRateChart"></canvas>
+            </div>
+
+            <!-- Industry Adoption Chart -->
+            <div class="chart-container">
+                <h2>AI Adoption by Industry</h2>
+                <p class="chart-description">
+                    Comparative analysis of AI adoption rates across different industry sectors.
+                </p>
+                <canvas id="industryChart"></canvas>
+            </div>
+
+            <!-- Regional Adoption Chart -->
+            <div class="chart-container">
+                <h2>AI Adoption by Region</h2>
+                <p class="chart-description">
+                    Global perspective on AI adoption showing regional variations and market penetration.
+                </p>
+                <canvas id="regionChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Data Summary -->
+        <div class="summary-section">
+            <h2>Key Insights</h2>
+            <div class="insights-grid">
+                <div class="insight-card">
+                    <h3>Market Growth</h3>
+                    <p id="marketInsight">AI market showing exponential growth trajectory with strong predictive accuracy.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Adoption Trends</h3>
+                    <p id="adoptionInsight">Steady increase in AI adoption across all sectors and regions.</p>
+                </div>
+                <div class="insight-card">
+                    <h3>Future Outlook</h3>
+                    <p id="futureInsight">Predictions indicate continued acceleration in both market size and adoption rates.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Developed by Sahil Lakra | Data analysis with Python scikit-learn | Visualization with Chart.js</p>
+        </footer>
+    </div>
+
+    <!-- Load our custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
